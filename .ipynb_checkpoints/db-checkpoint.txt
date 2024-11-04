@@ -1,0 +1,158 @@
+Data Structure Overview
+
+Machines
+The dataset includes data from 16 distinct machines used in various manufacturing processes. Machines are categorized as follows:
+
+- Metal Cutting Machines  
+  - Large Capacity Cutting Machine 1  
+  - Large Capacity Cutting Machine 2  
+  - Medium Capacity Cutting Machine 1  
+  - Medium Capacity Cutting Machine 2  
+  - Medium Capacity Cutting Machine 3  
+  - Low Capacity Cutting Machine 1  
+
+- Laser Welding Machines  
+  - Laser Welding Machine 1  
+  - Laser Welding Machine 2  
+
+- Assembly Machines  
+  - Assembly Machine 1  
+  - Assembly Machine 2  
+  - Assembly Machine 3  
+
+- Testing Machines  
+  - Testing Machine 1  
+  - Testing Machine 2  
+  - Testing Machine 3  
+
+- Other Machines  
+  - Riveting Machine  
+  - Laser Cutter  
+
+Key Performance Indicators (KPIs)
+The data captures 12 KPIs, classified by their focus area:
+
+- Time-Related KPIs  
+  - working_time: seconds of active machine operation  
+  - idle_time: seconds when machine is idle  
+  - offline_time: seconds when machine is offline  
+
+- Energy and Cost-Related KPIs  
+  - consumption: total energy consumption (kWh)  
+  - power: energy power rating (kW)  
+  - cost: energy cost (euro per kWh)  
+  - consumption_working: energy consumed during active operation (kWh)  
+  - consumption_idle: energy consumed while idle (kWh)  
+
+- Production-Related KPIs  
+  - cycles: total production cycles  
+  - good_cycles: number of successful cycles  
+  - bad_cycles: number of defective cycles  
+  - average_cycle_time: average time per cycle (seconds)  
+
+Data Frame (DF) Structure
+The dataset’s data frame (DF) includes:
+
+- 9 columns capturing machine KPIs on a daily basis.
+- Daily Timestamps: Each KPI is recorded daily with multiple timestamps per machine, where each timestamp corresponds to a different KPI measurement.
+- Aggregated Metrics: KPIs are summarized as sum, average, minimum, maximum, and variance values. Some KPIs may lack certain aggregate values (e.g., average_cycle_time does not have a sum).
+
+
+Large Capacity Cutting Machine 1
+                 sum           avg           min            max
+count    2796.000000   3262.000000   3262.000000    3262.000000
+mean     4531.235608    709.171308    551.854380    1343.991611
+std     16042.701498   4048.296026   3954.661579    6757.830751
+min         0.000000      0.000000      0.000000       0.000000
+25%         0.000000      0.000000      0.000000       0.000000
+50%         0.000000      0.000000      0.000000       0.000000
+75%         0.029922      0.003020      0.000044       0.019339
+max    161416.000000  66708.000000  66708.000000  189334.000000
+------------------------
+Riveting Machine
+                 sum            avg            min            max
+count    2796.000000    3262.000000    3262.000000    3262.000000
+mean     3236.370246     938.000323     904.427478    1029.043148
+std     10522.629669    6541.030332    6539.799674    6549.731823
+min         0.000000       0.000000       0.000000       0.000000
+25%         0.000000       0.000000       0.000000       0.000000
+50%         0.000000       0.000000       0.000000       0.000000
+75%         0.001600       0.001000       0.000028       0.001000
+max    116119.000000  116119.000000  116119.000000  116119.000000
+------------------------
+Medium Capacity Cutting Machine 1
+                 sum           avg           min           max
+count    2796.000000   3262.000000   3262.000000   3262.000000
+mean     3582.979086    430.512295    336.158139    779.889208
+std     13349.073151   2905.440284   2829.150755   3383.400036
+min         0.000000      0.000000      0.000000      0.000000
+25%         0.000000      0.000000      0.000000      0.000000
+50%         0.000000      0.000000      0.000000      0.000000
+75%         0.027676      0.003131      0.000287      0.012894
+max    125991.000000  53907.000000  53907.000000  53907.000000
+------------------------
+Laser Cutter
+                 sum            avg            min            max
+count    2796.000000    3262.000000    3262.000000    3262.000000
+mean     1837.479976    1036.503013    1021.818936    1084.960842
+std      9426.195911    8536.844988    8538.072767    8553.641419
+min         0.000000       0.000000       0.000000       0.000000
+25%         0.000000       0.000000       0.000000       0.000000
+50%         0.000000       0.000000       0.000000       0.000000
+75%         0.000000       0.000000       0.000000       0.000000
+max    147623.000000  147623.000000  147623.000000  147623.000000
+------------------------
+Large Capacity Cutting Machine 2
+                 sum           avg           min           max
+count    2796.000000   3262.000000   3262.000000   3262.000000
+mean     3236.559036    531.570423    451.293029    834.144014
+std     11279.050084   3302.387848   3271.805426   3681.078849
+min         0.000000      0.000000      0.000000      0.000000
+25%         0.000000      0.000000      0.000000      0.000000
+50%         0.000000      0.000000      0.000000      0.000000
+75%         0.038597      0.003421      0.000389      0.025958
+max    113137.000000  53216.000000  53216.000000  53216.000000
+------------------------
+Medium Capacity Cutting Machine 2
+                 sum           avg           min           max
+count    2796.000000   3262.000000   3262.000000   3262.000000
+mean     2402.504487    403.595206    327.102020    645.687113
+std     10297.638077   2634.566559   2580.349336   3028.774697
+min         0.000000      0.000000      0.000000      0.000000
+25%         0.000000      0.000000      0.000000      0.000000
+50%         0.000000      0.000000      0.000000      0.000000
+75%         0.012246      0.001588      0.000007      0.004656
+max    104814.000000  50546.000000  50546.000000  50546.000000
+------------------------
+Testing Machine 1
+                sum           avg           min           max
+count   2796.000000  3.262000e+03   3262.000000   3262.000000
+mean     569.705038  4.572720e+02    456.380136    459.858549
+std     4549.091317  4.216295e+03   4216.385625   4216.054501
+min        0.000000  0.000000e+00      0.000000      0.000000
+25%        0.000000  0.000000e+00      0.000000      0.000000
+50%        0.000000  0.000000e+00      0.000000      0.000000
+75%        0.000000  1.640083e-07      0.000000      0.000000
+max    72050.000000  7.205000e+04  72050.000000  72050.000000
+------------------------
+Testing Machine 2
+                sum           avg           min           max
+count   2796.000000   3262.000000   3262.000000   3262.000000
+mean     485.872714    385.830626    384.528514    390.007103
+std     4529.928491   4192.118016   4192.211807   4191.931197
+min        0.000000      0.000000      0.000000      0.000000
+25%        0.000000      0.000000      0.000000      0.000000
+50%        0.000000      0.000000      0.000000      0.000000
+75%        0.000000      0.000000      0.000000      0.000000
+max    89945.000000  89945.000000  89945.000000  89945.000000
+------------------------
+Low Capacity Cutting Machine 1
+                sum           avg           min           max
+count   2796.000000   3262.000000   3262.000000   3262.000000
+mean     499.142400    387.249050    385.108507    399.264531
+std     4071.976502   3522.630465   3520.739817   3543.926562
+min        0.000000      0.000000      0.000000      0.000000
+25%        0.000000      0.000000      0.000000      0.000000
+50%        0.000000      0.000000      0.000000      0.000000
+75%        0.000000      0.000000      0.000000      0.000000
+max    63193.000000  63193.000000  63193.000000  63193.000000
