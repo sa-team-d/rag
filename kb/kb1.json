@@ -1,0 +1,90 @@
+{
+    "data_structure_overview": {
+      "machines": [
+        {
+          "category": "Metal Cutting Machines",
+          "machines": [
+            "Large Capacity Cutting Machine 1",
+            "Large Capacity Cutting Machine 2",
+            "Medium Capacity Cutting Machine 1",
+            "Medium Capacity Cutting Machine 2",
+            "Medium Capacity Cutting Machine 3",
+            "Low Capacity Cutting Machine 1"
+          ]
+        },
+        {
+          "category": "Laser Welding Machines",
+          "machines": [
+            "Laser Welding Machine 1",
+            "Laser Welding Machine 2"
+          ]
+        },
+        {
+          "category": "Assembly Machines",
+          "machines": [
+            "Assembly Machine 1",
+            "Assembly Machine 2",
+            "Assembly Machine 3"
+          ]
+        },
+        {
+          "category": "Testing Machines",
+          "machines": [
+            "Testing Machine 1",
+            "Testing Machine 2",
+            "Testing Machine 3"
+          ]
+        },
+        {
+          "category": "Other Machines",
+          "machines": [
+            "Riveting Machine",
+            "Laser Cutter"
+          ]
+        }
+      ],
+      "key_performance_indicators": [
+        {
+          "category": "Time-Related KPIs",
+          "KPIs": [
+            { "name": "working_time", "description": "seconds of active machine operation" },
+            { "name": "idle_time", "description": "seconds when machine is idle" },
+            { "name": "offline_time", "description": "seconds when machine is offline" }
+          ]
+        },
+        {
+          "category": "Energy and Cost-Related KPIs",
+          "KPIs": [
+            { "name": "consumption", "description": "total energy consumption (kWh)" },
+            { "name": "power", "description": "energy power rating (kW)" },
+            { "name": "cost", "description": "energy cost (euro per kWh)" },
+            { "name": "consumption_working", "description": "energy consumed during active operation (kWh)" },
+            { "name": "consumption_idle", "description": "energy consumed while idle (kWh)" }
+          ]
+        },
+        {
+          "category": "Production-Related KPIs",
+          "KPIs": [
+            { "name": "cycles", "description": "total production cycles" },
+            { "name": "good_cycles", "description": "number of successful cycles" },
+            { "name": "bad_cycles", "description": "number of defective cycles" },
+            { "name": "average_cycle_time", "description": "average time per cycle (seconds)" }
+          ]
+        }
+      ],
+      "data_frame_structure": {
+        "columns": 9,
+        "timestamp_frequency": "daily",
+        "timestamp_notes": "Each KPI is recorded daily with multiple timestamps per machine.",
+        "aggregated_metrics": [
+          "sum",
+          "average",
+          "minimum",
+          "maximum",
+          "variance"
+        ],
+        "notes": "Some KPIs may lack certain aggregate values (e.g., average_cycle_time does not have a sum)."
+      }
+    }
+  }
+  
