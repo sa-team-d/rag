@@ -1,0 +1,69 @@
+List of possible queries to make
+1. What was the average consumption of Machine x in April?
+2. Show me the KPI summary for Machine x for the first week of May.
+3. Which machine had the highest average cost in August?
+4. What are the min and max values for KPI X across all machines?
+5. Which machines had KPI Y exceeding threshold Z in September?
+6. List machines where the min working_time dropped below X.
+
+
+Concerning the KB:
+- We can keep a file with a description of our machines and KPIs (data/kb1.json is a prototype that we can adjust)
+- We can add a file with alerts or flagged descriptions for out-of-bound KPI values, but in order to do so we need to understand which is the standard behaviour for each machine and KPI, so maybe we can look at the work done by Group 3 for this
+- We can make a big json that reports the dataset we have in this kind of shape:
+        {
+        "machines": [
+            {
+            "machine_id": "M1",
+            "data": [
+                {
+                "date": "2023-03-01",
+                "KPIs": {
+                    "KPI 1": {
+                    "sum": 320.5,
+                    "average": 32.05,
+                    "min": 30.1,
+                    "max": 34.0
+                    },
+                    "KPI 2": {
+                    "sum": 1200.2,
+                    "average": 120.02,
+                    "min": 115.0,
+                    "max": 125.3
+                    },
+                    // ...other KPIs for the day
+                }
+                },
+                // ...other dates
+            ]
+            },
+            // ...other machines
+        ]
+        }
+ therefore, NOT the actual dataset/kb2.json that reports an approximation of the actual data obtained with the method .describe()
+ - We could prepare a file with KPI summary by month, if we think that the queries asking for a monthly analysis make sense. The shape that it could have is this:
+        {
+        "machines": [
+            {
+            "machine_id": "M1",
+            "monthly_summary": [
+                {
+                "month": "2023-03",
+                "KPIs": {
+                    "KPI 1": {
+                    "average": 32.1,
+                    "min": 30.0,
+                    "max": 34.5
+                    },
+                    "KPI 2": {
+                    "average": 118.5,
+                    "min": 112.0,
+                    "max": 123.4
+                    }
+                }
+                },
+                // ...other months
+            ]
+            }
+        ]
+        }
