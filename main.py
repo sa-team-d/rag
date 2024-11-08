@@ -7,7 +7,7 @@ from llama_index.readers.json import JSONReader
 from llama_index.core.node_parser import JSONNodeParser
 from llama_index.readers.file import FlatReader
 
-DATA_PATH = "./data"
+DATA_PATH = "./data/"
 
 # setting up reader, parser, and llm
 reader = JSONReader()

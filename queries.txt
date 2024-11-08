@@ -5,6 +5,8 @@ List of possible queries to make
 4. What are the min and max values for KPI X across all machines?
 5. Which machines had KPI Y exceeding threshold Z in September?
 6. List machines where the min working_time dropped below X.
+7. What is the avg consumption for machine Large Capacity Cutting Machine 1 in the month of 2024-05? (0.002799)
+8. List the months in which machine_x had a production lower than y 
 
 Other queries could be prepared looking at the user stories we made.
 
@@ -69,3 +71,14 @@ Concerning the KB:
             }
         ]
         }
+
+
+
+----
+
+A lighter encoder works but need smaller files as documents. We tried to use all the mnonthly json file and it didnt work,
+she said that there is not available data for our query, by reducing it to 3 months it answers correctly with multiple tries.
+
+For the query 7. we have solved the context problem by incresing the similarity_top_k to a larger number (4-5), it gives
+correct answer for 3 months out of 4, for the first one it still asnwer but with another data 
+(consumption_working instead of consumption)
