@@ -12,7 +12,7 @@ Other queries could be prepared looking at the user stories we made.
 Concerning the KB:
 - We can keep a file with a description of our machines and KPIs (data/kb1.json is a prototype that we can adjust)
 - We can add a file with alerts or flagged descriptions for out-of-bound KPI values, but in order to do so we need to understand which is the standard behaviour for each machine and KPI, so maybe we can look at the work done by Group 3 for this
-- We can make a big json that reports the dataset we have in this kind of shape:
+- [DONE: dataset/smart_app_data.json] We can make a big json that reports the dataset we have in this kind of shape:
         {
         "machines": [
             {
@@ -43,7 +43,7 @@ Concerning the KB:
         ]
         }
  therefore, NOT the actual dataset/kb2.json that reports an approximation of the actual data obtained with the method .describe()
- - We could prepare a file with KPI summary by month, if we think that the queries asking for a monthly analysis make sense. The shape that it could have is this:
+ - [DONE: dataset/monthly_smart_app_data.json] We could prepare a file with KPI summary by month, if we think that the queries asking for a monthly analysis make sense. The shape that it could have is this:
         {
         "machines": [
             {
