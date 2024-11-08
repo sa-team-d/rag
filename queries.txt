@@ -6,6 +6,8 @@ List of possible queries to make
 5. Which machines had KPI Y exceeding threshold Z in September?
 6. List machines where the min working_time dropped below X.
 
+Other queries could be prepared looking at the user stories we made.
+
 
 Concerning the KB:
 - We can keep a file with a description of our machines and KPIs (data/kb1.json is a prototype that we can adjust)
