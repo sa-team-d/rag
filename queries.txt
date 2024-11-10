@@ -1,12 +1,21 @@
 List of possible queries to make
-1. What was the average consumption of Machine x in April?
-2. Show me the KPI summary for Machine x for the first week of May.
-3. Which machine had the highest average cost in August?
-4. What are the min and max values for KPI X across all machines?
-5. Which machines had KPI Y exceeding threshold Z in September?
-6. List machines where the min working_time dropped below X.
-7. What is the avg consumption for machine Large Capacity Cutting Machine 1 in the month of 2024-05? (0.002799)
-8. List the months in which machine_x had a production lower than y 
+1. What was the average consumption of Laser Welding Machine 2 in 2024-07? (0.000731)
+2. Show me the summary of KPI `consumption` for the Riveting Machine for the first 10 days of May. 
+    (Max consumption: 0.007274787335954055 on 2024-05-03
+    Avg consumption: 4.294359326858294e-05)
+3. Which machine had the highest average cost in August? (Medium Capacity Cutting Machine 2 with avg cost: 0.0010723231566129407)
+4. Which machines had the avg power exceeding threshold 0.003 in September? 
+    (Large Capacity Cutting Machine 1, 
+    Large Capacity Cutting Machine 2, 
+    Low Capacity Cutting Machine 1, 
+    Medium Capacity Cutting Machine 1, 
+    Medium Capacity Cutting Machine 2)
+5. List machines where the avg `working_time` was above 50000 and say in which month it happened.
+    (Assembly Machine 1	on 2024-10 had an avg working_time of 62671.789474	
+    Laser Cutter on	2024-10 had an avg working_time of 62300.263158)
+6. What is the avg consumption for machine Large Capacity Cutting Machine 1 in the month of 2024-05? (0.002799)
+7. List the months in which the Laser Cutter had an avg working_time lower than 10000.
+    (From March to July the avg `working_time` was 0.0)
 
 Other queries could be prepared looking at the user stories we made.
 
