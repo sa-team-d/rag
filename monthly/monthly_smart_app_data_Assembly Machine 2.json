@@ -1,0 +1,605 @@
+{
+    "machine_id": "Assembly Machine 2",
+    "monthly_summary": [
+        {
+            "month": "2024-03",
+            "KPIs": {
+                "average_cycle_time": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "bad_cycles": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "consumption": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "consumption_idle": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "consumption_working": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "cost": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "cost_idle": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "cost_working": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "cycles": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "good_cycles": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "idle_time": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "offline_time": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "power": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "working_time": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                }
+            }
+        },
+        {
+            "month": "2024-04",
+            "KPIs": {
+                "average_cycle_time": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "bad_cycles": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "consumption": {
+                    "average": 9.823169415227382e-10,
+                    "min": 0.0,
+                    "max": 1.4458549255241928e-06
+                },
+                "consumption_idle": {
+                    "average": 1.1099949630002432e-07,
+                    "min": 0.0,
+                    "max": 1.4458549255241928e-06
+                },
+                "consumption_working": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "cost": {
+                    "average": 2.602773866467071e-08,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "cost_idle": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "cost_working": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "cycles": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "good_cycles": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "idle_time": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "offline_time": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "power": {
+                    "average": 1.9072376121672018e-06,
+                    "min": 0.0,
+                    "max": 5.9781919548601925e-05
+                },
+                "working_time": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                }
+            }
+        },
+        {
+            "month": "2024-05",
+            "KPIs": {
+                "average_cycle_time": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "bad_cycles": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "consumption": {
+                    "average": 6.609335201578206e-10,
+                    "min": 0.0,
+                    "max": 1.1916995913398216e-07
+                },
+                "consumption_idle": {
+                    "average": 6.609335201578206e-10,
+                    "min": 0.0,
+                    "max": 1.1916995913398216e-07
+                },
+                "consumption_working": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "cost": {
+                    "average": 4.4474060135981787e-10,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "cost_idle": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "cost_working": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "cycles": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "good_cycles": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "idle_time": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "offline_time": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "power": {
+                    "average": 4.96566113554974e-08,
+                    "min": 0.0,
+                    "max": 7.73726261324705e-05
+                },
+                "working_time": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                }
+            }
+        },
+        {
+            "month": "2024-06",
+            "KPIs": {
+                "average_cycle_time": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "bad_cycles": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "consumption": {
+                    "average": 2.271777026778656e-06,
+                    "min": 0.0,
+                    "max": 0.00032322765052438516
+                },
+                "consumption_idle": {
+                    "average": 2.1432774588047796e-06,
+                    "min": 0.0,
+                    "max": 3.071017768500372e-05
+                },
+                "consumption_working": {
+                    "average": 7.018601195056549e-07,
+                    "min": 0.0,
+                    "max": 0.0001898280480686314
+                },
+                "cost": {
+                    "average": 3.381979034384769e-05,
+                    "min": 0.0,
+                    "max": 0.001
+                },
+                "cost_idle": {
+                    "average": 3.381979034384769e-05,
+                    "min": 0.0,
+                    "max": 0.001
+                },
+                "cost_working": {
+                    "average": 9.724601569890569e-08,
+                    "min": 0.0,
+                    "max": 5.2294676755860225e-05
+                },
+                "cycles": {
+                    "average": 0.4,
+                    "min": 0.0,
+                    "max": 4101.0
+                },
+                "good_cycles": {
+                    "average": 279.96666666666664,
+                    "min": 0.0,
+                    "max": 4101.0
+                },
+                "idle_time": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "offline_time": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "power": {
+                    "average": 1.8735999829276723e-06,
+                    "min": 0.0,
+                    "max": 0.011242866023249757
+                },
+                "working_time": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                }
+            }
+        },
+        {
+            "month": "2024-07",
+            "KPIs": {
+                "average_cycle_time": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "bad_cycles": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "consumption": {
+                    "average": 3.0956902275198204e-06,
+                    "min": 0.0,
+                    "max": 0.00028829915398972716
+                },
+                "consumption_idle": {
+                    "average": 7.956680284016742e-07,
+                    "min": 0.0,
+                    "max": 7.241391756765005e-05
+                },
+                "consumption_working": {
+                    "average": 3.103104815388573e-06,
+                    "min": 0.0,
+                    "max": 6.733332088925347e-05
+                },
+                "cost": {
+                    "average": 0.0006452747726003261,
+                    "min": 0.0,
+                    "max": 0.19208786154344307
+                },
+                "cost_idle": {
+                    "average": 0.00012910243450132102,
+                    "min": 0.0,
+                    "max": 0.1111474348444977
+                },
+                "cost_working": {
+                    "average": 0.0006452045961635212,
+                    "min": 0.0,
+                    "max": 0.19208786154344307
+                },
+                "cycles": {
+                    "average": 0.6129032258064516,
+                    "min": 0.0,
+                    "max": 3620.0
+                },
+                "good_cycles": {
+                    "average": 620.8709677419355,
+                    "min": 0.0,
+                    "max": 3620.0
+                },
+                "idle_time": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "offline_time": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "power": {
+                    "average": 3.880167425309431e-06,
+                    "min": 0.0,
+                    "max": 0.0016791409060511152
+                },
+                "working_time": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                }
+            }
+        },
+        {
+            "month": "2024-08",
+            "KPIs": {
+                "average_cycle_time": {
+                    "average": 1.3606079905992912,
+                    "min": 0.0,
+                    "max": 6.441103359675808
+                },
+                "bad_cycles": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "consumption": {
+                    "average": 0.00022636926258748358,
+                    "min": 0.0,
+                    "max": 0.001
+                },
+                "consumption_idle": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "consumption_working": {
+                    "average": 0.00022636926258748358,
+                    "min": 0.0,
+                    "max": 0.001
+                },
+                "cost": {
+                    "average": 0.0003225806451612903,
+                    "min": 0.0,
+                    "max": 0.001
+                },
+                "cost_idle": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "cost_working": {
+                    "average": 0.0003225806451612903,
+                    "min": 0.0,
+                    "max": 0.001
+                },
+                "cycles": {
+                    "average": 0.25806451612903225,
+                    "min": 0.0,
+                    "max": 1631.0
+                },
+                "good_cycles": {
+                    "average": 226.74193548387098,
+                    "min": 0.0,
+                    "max": 1631.0
+                },
+                "idle_time": {
+                    "average": 119.87096774193549,
+                    "min": 0.0,
+                    "max": 962.0
+                },
+                "offline_time": {
+                    "average": 165.67741935483872,
+                    "min": 0.0,
+                    "max": 1805.0
+                },
+                "power": {
+                    "average": 1.29189886027437e-06,
+                    "min": 0.0,
+                    "max": 0.0004629165367288806
+                },
+                "working_time": {
+                    "average": 11289.193548387097,
+                    "min": 0.0,
+                    "max": 77054.0
+                }
+            }
+        },
+        {
+            "month": "2024-09",
+            "KPIs": {
+                "average_cycle_time": {
+                    "average": 29.006897252893573,
+                    "min": 0.0,
+                    "max": 1588.5865539753572
+                },
+                "bad_cycles": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "consumption": {
+                    "average": 0.0007002342149363352,
+                    "min": 0.0,
+                    "max": 0.009098658200297871
+                },
+                "consumption_idle": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "consumption_working": {
+                    "average": 0.00494898558361398,
+                    "min": 0.0,
+                    "max": 0.009098658200297871
+                },
+                "cost": {
+                    "average": 0.0007334014401547712,
+                    "min": 0.0,
+                    "max": 0.1397336327886917
+                },
+                "cost_idle": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "cost_working": {
+                    "average": 0.0007333494229018859,
+                    "min": 0.0,
+                    "max": 0.1397336327886917
+                },
+                "cycles": {
+                    "average": 0.6666666666666666,
+                    "min": 0.0,
+                    "max": 1670.0
+                },
+                "good_cycles": {
+                    "average": 440.93333333333334,
+                    "min": 0.0,
+                    "max": 1670.0
+                },
+                "idle_time": {
+                    "average": 469.4,
+                    "min": 0.0,
+                    "max": 1923.0
+                },
+                "offline_time": {
+                    "average": 846.8333333333334,
+                    "min": 0.0,
+                    "max": 3939.0
+                },
+                "power": {
+                    "average": 3.4620046833886244e-06,
+                    "min": 0.0,
+                    "max": 0.0005188098332423112
+                },
+                "working_time": {
+                    "average": 26191.866666666665,
+                    "min": 0.0,
+                    "max": 127695.0
+                }
+            }
+        },
+        {
+            "month": "2024-10",
+            "KPIs": {
+                "average_cycle_time": {
+                    "average": 6.8879970560786274,
+                    "min": 0.0,
+                    "max": 18.984772065691327
+                },
+                "bad_cycles": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "consumption": {
+                    "average": 0.0006847733905209205,
+                    "min": 0.0,
+                    "max": 0.001
+                },
+                "consumption_idle": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "consumption_working": {
+                    "average": 0.0006847733905209205,
+                    "min": 0.0,
+                    "max": 0.001
+                },
+                "cost": {
+                    "average": 0.0007894736842105263,
+                    "min": 0.0,
+                    "max": 0.001
+                },
+                "cost_idle": {
+                    "average": 0.0,
+                    "min": 0.0,
+                    "max": 0.0
+                },
+                "cost_working": {
+                    "average": 0.0007894736842105263,
+                    "min": 0.0,
+                    "max": 0.001
+                },
+                "cycles": {
+                    "average": 0.6842105263157895,
+                    "min": 0.0,
+                    "max": 2003.0
+                },
+                "good_cycles": {
+                    "average": 387.7894736842105,
+                    "min": 0.0,
+                    "max": 2003.0
+                },
+                "idle_time": {
+                    "average": 464.7368421052632,
+                    "min": 0.0,
+                    "max": 1548.0
+                },
+                "offline_time": {
+                    "average": 1530.578947368421,
+                    "min": 0.0,
+                    "max": 10441.0
+                },
+                "power": {
+                    "average": 4.115460224890993e-06,
+                    "min": 0.0,
+                    "max": 0.00048501952735683447
+                },
+                "working_time": {
+                    "average": 29681.947368421053,
+                    "min": 0.0,
+                    "max": 97657.0
+                }
+            }
+        }
+    ]
+}
