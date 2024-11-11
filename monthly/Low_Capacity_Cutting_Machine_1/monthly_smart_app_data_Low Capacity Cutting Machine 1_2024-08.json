@@ -1,0 +1,76 @@
+{
+    "machine_id": "Low Capacity Cutting Machine 1",
+    "month": "2024-08",
+    "KPIs": {
+        "average_cycle_time": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "bad_cycles": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "consumption": {
+            "average": 0.0003049290347425562,
+            "min": 0.0,
+            "max": 0.044974889961834304
+        },
+        "consumption_idle": {
+            "average": 3.308066894182734e-07,
+            "min": 0.0,
+            "max": 7.3926781216590375e-06
+        },
+        "consumption_working": {
+            "average": 0.0007907722898589411,
+            "min": 0.0,
+            "max": 0.011452670569882922
+        },
+        "cost": {
+            "average": 0.00024169629006132488,
+            "min": 0.0,
+            "max": 0.11850481713569455
+        },
+        "cost_idle": {
+            "average": 0.00282802871924748,
+            "min": 0.0,
+            "max": 0.001
+        },
+        "cost_working": {
+            "average": 0.00026964177725186724,
+            "min": 0.0,
+            "max": 0.11850481713569455
+        },
+        "cycles": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "good_cycles": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "idle_time": {
+            "average": 1.2580645161290323,
+            "min": 0.0,
+            "max": 20.0
+        },
+        "offline_time": {
+            "average": 127.61290322580645,
+            "min": 0.0,
+            "max": 1320.0
+        },
+        "power": {
+            "average": 0.0007999844722631779,
+            "min": 0.0,
+            "max": 0.018129058905039935
+        },
+        "working_time": {
+            "average": 4150.580645161291,
+            "min": 0.0,
+            "max": 49727.0
+        }
+    }
+}

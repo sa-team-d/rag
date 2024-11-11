@@ -1,0 +1,76 @@
+{
+    "machine_id": "Large Capacity Cutting Machine 1",
+    "month": "2024-06",
+    "KPIs": {
+        "average_cycle_time": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "bad_cycles": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "consumption": {
+            "average": 0.0022754360628985696,
+            "min": 0.0,
+            "max": 0.28049992033965815
+        },
+        "consumption_idle": {
+            "average": 0.0004284444720048216,
+            "min": 0.0,
+            "max": 0.002268065000498686
+        },
+        "consumption_working": {
+            "average": 0.003705408855178665,
+            "min": 0.0,
+            "max": 0.033748348936949925
+        },
+        "cost": {
+            "average": 0.0011976140803471493,
+            "min": 0.0,
+            "max": 0.1762150443093765
+        },
+        "cost_idle": {
+            "average": 0.0007713563761009156,
+            "min": 0.0,
+            "max": 0.1762150443093765
+        },
+        "cost_working": {
+            "average": 0.0013039613971528039,
+            "min": 0.0,
+            "max": 0.013332865828880693
+        },
+        "cycles": {
+            "average": 0.8,
+            "min": 0.0,
+            "max": 28007.0
+        },
+        "good_cycles": {
+            "average": 3063.0333333333333,
+            "min": 0.0,
+            "max": 28007.0
+        },
+        "idle_time": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "offline_time": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "power": {
+            "average": 0.005318539522469576,
+            "min": 0.0,
+            "max": 0.060062284125605395
+        },
+        "working_time": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        }
+    }
+}

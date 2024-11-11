@@ -1,0 +1,76 @@
+{
+    "machine_id": "Testing Machine 1",
+    "month": "2024-09",
+    "KPIs": {
+        "average_cycle_time": {
+            "average": 0.2044796990370693,
+            "min": 0.0,
+            "max": 1.0869004549662087
+        },
+        "bad_cycles": {
+            "average": 5.3,
+            "min": 0.0,
+            "max": 52.0
+        },
+        "consumption": {
+            "average": 0.00046614210493002106,
+            "min": 0.0,
+            "max": 0.002
+        },
+        "consumption_idle": {
+            "average": 0.004394490440735073,
+            "min": 0.0,
+            "max": 0.001
+        },
+        "consumption_working": {
+            "average": 0.00043333333333333337,
+            "min": 0.0,
+            "max": 0.001
+        },
+        "cost": {
+            "average": 0.0004652108857873744,
+            "min": 0.0,
+            "max": 0.002
+        },
+        "cost_idle": {
+            "average": 0.0018900822235096229,
+            "min": 0.0,
+            "max": 0.001
+        },
+        "cost_working": {
+            "average": 0.00043333333333333337,
+            "min": 0.0,
+            "max": 0.001
+        },
+        "cycles": {
+            "average": 0.43333333333333335,
+            "min": 0.0,
+            "max": 169.0
+        },
+        "good_cycles": {
+            "average": 16.033333333333335,
+            "min": 0.0,
+            "max": 169.0
+        },
+        "idle_time": {
+            "average": 5721.333333333333,
+            "min": 0.0,
+            "max": 22074.0
+        },
+        "offline_time": {
+            "average": 19023.633333333335,
+            "min": 0.0,
+            "max": 72050.0
+        },
+        "power": {
+            "average": 6.120313204844444e-06,
+            "min": 0.0,
+            "max": 0.01078704001892456
+        },
+        "working_time": {
+            "average": 178.7,
+            "min": 0.0,
+            "max": 984.0
+        }
+    }
+}

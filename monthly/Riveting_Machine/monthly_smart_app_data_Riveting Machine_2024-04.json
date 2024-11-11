@@ -1,0 +1,76 @@
+{
+    "machine_id": "Riveting Machine",
+    "month": "2024-04",
+    "KPIs": {
+        "average_cycle_time": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "bad_cycles": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "consumption": {
+            "average": 5.09680290880758e-05,
+            "min": 0.0,
+            "max": 0.005709543552051823
+        },
+        "consumption_idle": {
+            "average": 9.578205731200302e-06,
+            "min": 0.0,
+            "max": 5.089747953180819e-05
+        },
+        "consumption_working": {
+            "average": 0.00011418538706549151,
+            "min": 0.0,
+            "max": 0.00026008365993615703
+        },
+        "cost": {
+            "average": 2.7848284823296877e-05,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "cost_idle": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "cost_working": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "cycles": {
+            "average": 0.6,
+            "min": 0.0,
+            "max": 3966.0
+        },
+        "good_cycles": {
+            "average": 942.3333333333334,
+            "min": 0.0,
+            "max": 3966.0
+        },
+        "idle_time": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "offline_time": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "power": {
+            "average": 9.321562363038624e-05,
+            "min": 0.0,
+            "max": 0.001029582150326796
+        },
+        "working_time": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        }
+    }
+}

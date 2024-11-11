@@ -1,0 +1,76 @@
+{
+    "machine_id": "Assembly Machine 1",
+    "month": "2024-09",
+    "KPIs": {
+        "average_cycle_time": {
+            "average": 2.3853138886574397,
+            "min": 0.0,
+            "max": 6.07325419472709
+        },
+        "bad_cycles": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "consumption": {
+            "average": 0.0010333533101060455,
+            "min": 0.0,
+            "max": 0.028236866309043047
+        },
+        "consumption_idle": {
+            "average": 0.0028733121915590436,
+            "min": 0.0,
+            "max": 0.001
+        },
+        "consumption_working": {
+            "average": 0.008224622860047636,
+            "min": 0.0,
+            "max": 0.001
+        },
+        "cost": {
+            "average": 0.0008325343137818726,
+            "min": 0.0,
+            "max": 0.006340291128428104
+        },
+        "cost_idle": {
+            "average": 0.0008,
+            "min": 0.0,
+            "max": 0.001
+        },
+        "cost_working": {
+            "average": 0.0035145196236553377,
+            "min": 0.0,
+            "max": 0.001
+        },
+        "cycles": {
+            "average": 0.7666666666666667,
+            "min": 0.0,
+            "max": 2744.0
+        },
+        "good_cycles": {
+            "average": 804.8,
+            "min": 0.0,
+            "max": 2744.0
+        },
+        "idle_time": {
+            "average": 5167.533333333334,
+            "min": 0.0,
+            "max": 13717.0
+        },
+        "offline_time": {
+            "average": 389.8,
+            "min": 0.0,
+            "max": 1567.0
+        },
+        "power": {
+            "average": 0.0003241887258133805,
+            "min": 0.0,
+            "max": 0.004790077344507011
+        },
+        "working_time": {
+            "average": 44754.96666666667,
+            "min": 0.0,
+            "max": 106043.0
+        }
+    }
+}

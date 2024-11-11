@@ -1,0 +1,76 @@
+{
+    "machine_id": "Assembly Machine 1",
+    "month": "2024-10",
+    "KPIs": {
+        "average_cycle_time": {
+            "average": 3.7092893598221903,
+            "min": 0.0,
+            "max": 8.019070142710785
+        },
+        "bad_cycles": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "consumption": {
+            "average": 0.0008535409205337466,
+            "min": 0.0,
+            "max": 0.15526489904827573
+        },
+        "consumption_idle": {
+            "average": 0.0007394212080759357,
+            "min": 0.0,
+            "max": 0.0395678306853933
+        },
+        "consumption_working": {
+            "average": 0.0008629087712610543,
+            "min": 0.0,
+            "max": 0.15526489904827573
+        },
+        "cost": {
+            "average": 0.0010135952732225327,
+            "min": 0.0,
+            "max": 0.0066680631798923
+        },
+        "cost_idle": {
+            "average": 0.000789958869014387,
+            "min": 0.0,
+            "max": 0.001
+        },
+        "cost_working": {
+            "average": 0.0061434478686168,
+            "min": 0.0,
+            "max": 0.001
+        },
+        "cycles": {
+            "average": 0.8421052631578947,
+            "min": 0.0,
+            "max": 2293.0
+        },
+        "good_cycles": {
+            "average": 833.8947368421053,
+            "min": 0.0,
+            "max": 2293.0
+        },
+        "idle_time": {
+            "average": 4683.473684210527,
+            "min": 0.0,
+            "max": 11809.0
+        },
+        "offline_time": {
+            "average": 65.05263157894737,
+            "min": 0.0,
+            "max": 568.0
+        },
+        "power": {
+            "average": 0.00033616187707527165,
+            "min": 0.0,
+            "max": 0.004135088381225268
+        },
+        "working_time": {
+            "average": 62671.78947368421,
+            "min": 0.0,
+            "max": 207022.0
+        }
+    }
+}

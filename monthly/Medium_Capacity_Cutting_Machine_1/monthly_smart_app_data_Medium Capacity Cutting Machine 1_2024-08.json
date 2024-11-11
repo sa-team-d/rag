@@ -1,0 +1,76 @@
+{
+    "machine_id": "Medium Capacity Cutting Machine 1",
+    "month": "2024-08",
+    "KPIs": {
+        "average_cycle_time": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "bad_cycles": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "consumption": {
+            "average": 0.0002568708892345688,
+            "min": 0.0,
+            "max": 0.0486628157200074
+        },
+        "consumption_idle": {
+            "average": 0.00017056999399634766,
+            "min": 0.0,
+            "max": 0.004895940374200458
+        },
+        "consumption_working": {
+            "average": 0.00027297461091742797,
+            "min": 0.0,
+            "max": 0.015032988952645699
+        },
+        "cost": {
+            "average": 9.752450003135069e-05,
+            "min": 0.0,
+            "max": 0.017476960759389253
+        },
+        "cost_idle": {
+            "average": 6.934262509055614e-05,
+            "min": 0.0,
+            "max": 0.001
+        },
+        "cost_working": {
+            "average": 0.00010841930290109743,
+            "min": 0.0,
+            "max": 0.0013653988102371338
+        },
+        "cycles": {
+            "average": 0.06451612903225806,
+            "min": 0.0,
+            "max": 4506.0
+        },
+        "good_cycles": {
+            "average": 54.45161290322581,
+            "min": 0.0,
+            "max": 4506.0
+        },
+        "idle_time": {
+            "average": 58.83870967741935,
+            "min": 0.0,
+            "max": 1824.0
+        },
+        "offline_time": {
+            "average": 30.193548387096776,
+            "min": 0.0,
+            "max": 936.0
+        },
+        "power": {
+            "average": 0.00046944157993932944,
+            "min": 0.0,
+            "max": 0.09066307047357805
+        },
+        "working_time": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        }
+    }
+}

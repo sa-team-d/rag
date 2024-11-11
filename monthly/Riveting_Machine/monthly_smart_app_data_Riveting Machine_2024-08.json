@@ -1,0 +1,76 @@
+{
+    "machine_id": "Riveting Machine",
+    "month": "2024-08",
+    "KPIs": {
+        "average_cycle_time": {
+            "average": 0.5738760389145637,
+            "min": 0.0,
+            "max": 4.768421313393485
+        },
+        "bad_cycles": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "consumption": {
+            "average": 0.00023317055094009145,
+            "min": 0.0,
+            "max": 0.049782875172444056
+        },
+        "consumption_idle": {
+            "average": 0.00022858019887950204,
+            "min": 0.0,
+            "max": 0.001
+        },
+        "consumption_working": {
+            "average": 0.00023696365537212183,
+            "min": 0.0,
+            "max": 0.049782875172444056
+        },
+        "cost": {
+            "average": 0.0003228251607255608,
+            "min": 0.0,
+            "max": 0.12845061384768863
+        },
+        "cost_idle": {
+            "average": 0.0003228251607255608,
+            "min": 0.0,
+            "max": 0.12845061384768863
+        },
+        "cost_working": {
+            "average": 0.0003225806451612903,
+            "min": 0.0,
+            "max": 0.001
+        },
+        "cycles": {
+            "average": 0.2903225806451613,
+            "min": 0.0,
+            "max": 4935.0
+        },
+        "good_cycles": {
+            "average": 371.258064516129,
+            "min": 0.0,
+            "max": 4935.0
+        },
+        "idle_time": {
+            "average": 3144.3548387096776,
+            "min": 0.0,
+            "max": 33758.0
+        },
+        "offline_time": {
+            "average": 522.741935483871,
+            "min": 0.0,
+            "max": 14166.0
+        },
+        "power": {
+            "average": 4.7067941778720746e-05,
+            "min": 0.0,
+            "max": 0.0005923325607798222
+        },
+        "working_time": {
+            "average": 4829.548387096775,
+            "min": 0.0,
+            "max": 29152.0
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "machine_id": "Laser Cutter",
+    "month": "2024-06",
+    "KPIs": {
+        "average_cycle_time": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "bad_cycles": {
+            "average": 0.3333333333333333,
+            "min": 0.0,
+            "max": 13.0
+        },
+        "consumption": {
+            "average": 1.9075685144952292e-08,
+            "min": 0.0,
+            "max": 7.845222216089075e-06
+        },
+        "consumption_idle": {
+            "average": 1.9075685144952292e-08,
+            "min": 0.0,
+            "max": 7.845222216089075e-06
+        },
+        "consumption_working": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "cost": {
+            "average": 9.654035306326677e-09,
+            "min": 0.0,
+            "max": 1.939848006489853e-06
+        },
+        "cost_idle": {
+            "average": 9.654035306326677e-09,
+            "min": 0.0,
+            "max": 1.910199170366939e-06
+        },
+        "cost_working": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "cycles": {
+            "average": 0.6333333333333333,
+            "min": 0.0,
+            "max": 1574.0
+        },
+        "good_cycles": {
+            "average": 190.2,
+            "min": 0.0,
+            "max": 1574.0
+        },
+        "idle_time": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "offline_time": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "power": {
+            "average": 0.00012102838656390982,
+            "min": 0.0,
+            "max": 0.00039143872104691817
+        },
+        "working_time": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        }
+    }
+}

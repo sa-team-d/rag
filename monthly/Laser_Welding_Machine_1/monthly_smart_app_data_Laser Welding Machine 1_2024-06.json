@@ -1,0 +1,76 @@
+{
+    "machine_id": "Laser Welding Machine 1",
+    "month": "2024-06",
+    "KPIs": {
+        "average_cycle_time": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "bad_cycles": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "consumption": {
+            "average": 0.00044118215106619355,
+            "min": 0.0,
+            "max": 0.024305794296739888
+        },
+        "consumption_idle": {
+            "average": 0.0004411821510661936,
+            "min": 0.0,
+            "max": 0.0033109695822215236
+        },
+        "consumption_working": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "cost": {
+            "average": 0.0003087025492726388,
+            "min": 0.0,
+            "max": 0.0071570357792642
+        },
+        "cost_idle": {
+            "average": 7.013468996383215e-05,
+            "min": 0.0,
+            "max": 0.0007407106129760364
+        },
+        "cost_working": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "cycles": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "good_cycles": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "idle_time": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "offline_time": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "power": {
+            "average": 0.00027101702883769186,
+            "min": 0.0,
+            "max": 0.003052453182989309
+        },
+        "working_time": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        }
+    }
+}

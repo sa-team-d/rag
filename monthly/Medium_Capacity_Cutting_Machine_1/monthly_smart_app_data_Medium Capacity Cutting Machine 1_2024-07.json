@@ -1,0 +1,76 @@
+{
+    "machine_id": "Medium Capacity Cutting Machine 1",
+    "month": "2024-07",
+    "KPIs": {
+        "average_cycle_time": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "bad_cycles": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "consumption": {
+            "average": 0.004216749575830874,
+            "min": 0.0,
+            "max": 0.15403699935662055
+        },
+        "consumption_idle": {
+            "average": 0.00308465321787306,
+            "min": 0.0,
+            "max": 0.08413208432479308
+        },
+        "consumption_working": {
+            "average": 0.00426240730156383,
+            "min": 0.0,
+            "max": 0.04316690268650313
+        },
+        "cost": {
+            "average": 0.0013834635909099138,
+            "min": 0.0,
+            "max": 0.07098549583920472
+        },
+        "cost_idle": {
+            "average": 0.0013525938912285899,
+            "min": 0.0,
+            "max": 0.037546013737957296
+        },
+        "cost_working": {
+            "average": 0.0015831856852721589,
+            "min": 0.0,
+            "max": 0.0064589388232717745
+        },
+        "cycles": {
+            "average": 0.6774193548387096,
+            "min": 0.0,
+            "max": 27648.0
+        },
+        "good_cycles": {
+            "average": 2231.451612903226,
+            "min": 0.0,
+            "max": 27648.0
+        },
+        "idle_time": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "offline_time": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "power": {
+            "average": 0.006760194172825883,
+            "min": 0.0,
+            "max": 0.14090367870608111
+        },
+        "working_time": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        }
+    }
+}

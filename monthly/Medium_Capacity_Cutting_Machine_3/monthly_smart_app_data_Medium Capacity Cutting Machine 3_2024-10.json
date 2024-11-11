@@ -1,0 +1,76 @@
+{
+    "machine_id": "Medium Capacity Cutting Machine 3",
+    "month": "2024-10",
+    "KPIs": {
+        "average_cycle_time": {
+            "average": 7.8765069857669205,
+            "min": 0.0,
+            "max": 63.24066319748772
+        },
+        "bad_cycles": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "consumption": {
+            "average": 0.0013809579983219647,
+            "min": 0.0,
+            "max": 0.14367137478648215
+        },
+        "consumption_idle": {
+            "average": 0.000829485932323597,
+            "min": 0.0,
+            "max": 0.14367137478648215
+        },
+        "consumption_working": {
+            "average": 0.006873903439021965,
+            "min": 0.0,
+            "max": 0.010327423529989726
+        },
+        "cost": {
+            "average": 0.0012083193891899036,
+            "min": 0.0,
+            "max": 0.012403986639501619
+        },
+        "cost_idle": {
+            "average": 0.009065819066667804,
+            "min": 0.0,
+            "max": 0.001
+        },
+        "cost_working": {
+            "average": 0.009524282087275033,
+            "min": 0.0,
+            "max": 0.003870045711205949
+        },
+        "cycles": {
+            "average": 0.7894736842105263,
+            "min": 0.0,
+            "max": 6484.0
+        },
+        "good_cycles": {
+            "average": 527.8947368421053,
+            "min": 0.0,
+            "max": 6484.0
+        },
+        "idle_time": {
+            "average": 11219.368421052632,
+            "min": 0.0,
+            "max": 45760.0
+        },
+        "offline_time": {
+            "average": 752.3157894736842,
+            "min": 0.0,
+            "max": 2136.0
+        },
+        "power": {
+            "average": 0.0016107831218612912,
+            "min": 0.0,
+            "max": 0.020468263133624126
+        },
+        "working_time": {
+            "average": 7090.526315789473,
+            "min": 0.0,
+            "max": 32065.0
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "machine_id": "Laser Welding Machine 2",
+    "month": "2024-09",
+    "KPIs": {
+        "average_cycle_time": {
+            "average": 1.2590250507732086,
+            "min": 0.0,
+            "max": 46.563132392650026
+        },
+        "bad_cycles": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 4.0
+        },
+        "consumption": {
+            "average": 0.0008365596485061291,
+            "min": 0.0,
+            "max": 0.12055221186292447
+        },
+        "consumption_idle": {
+            "average": 0.0012064470123363399,
+            "min": 0.0,
+            "max": 0.007485777823594003
+        },
+        "consumption_working": {
+            "average": 0.0002907532139789796,
+            "min": 0.0,
+            "max": 0.08151549438141033
+        },
+        "cost": {
+            "average": 0.0006721239510093819,
+            "min": 0.0,
+            "max": 0.03959706748205969
+        },
+        "cost_idle": {
+            "average": 0.0006387019774388342,
+            "min": 0.0,
+            "max": 0.0013628899701070792
+        },
+        "cost_working": {
+            "average": 0.0039076053857161185,
+            "min": 0.0,
+            "max": 0.03959706748205969
+        },
+        "cycles": {
+            "average": 0.16666666666666666,
+            "min": 0.0,
+            "max": 623.0
+        },
+        "good_cycles": {
+            "average": 22.166666666666668,
+            "min": 0.0,
+            "max": 623.0
+        },
+        "idle_time": {
+            "average": 20662.8,
+            "min": 0.0,
+            "max": 106914.0
+        },
+        "offline_time": {
+            "average": 337.93333333333334,
+            "min": 0.0,
+            "max": 2000.0
+        },
+        "power": {
+            "average": 0.0014412226465480558,
+            "min": 0.0,
+            "max": 0.07268311778339658
+        },
+        "working_time": {
+            "average": 6139.333333333333,
+            "min": 0.0,
+            "max": 35446.0
+        }
+    }
+}

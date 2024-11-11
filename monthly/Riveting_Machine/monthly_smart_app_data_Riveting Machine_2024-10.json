@@ -1,0 +1,76 @@
+{
+    "machine_id": "Riveting Machine",
+    "month": "2024-10",
+    "KPIs": {
+        "average_cycle_time": {
+            "average": 2.0996084931619468,
+            "min": 0.0,
+            "max": 3.6515102375042625
+        },
+        "bad_cycles": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "consumption": {
+            "average": 0.0009825887310018614,
+            "min": 0.0,
+            "max": 0.2004364980765874
+        },
+        "consumption_idle": {
+            "average": 0.0008947368421052633,
+            "min": 0.0,
+            "max": 0.2004364980765874
+        },
+        "consumption_working": {
+            "average": 0.0030549050552973593,
+            "min": 0.0,
+            "max": 0.001
+        },
+        "cost": {
+            "average": 0.0009465839044246041,
+            "min": 0.0,
+            "max": 0.003388257785253342
+        },
+        "cost_idle": {
+            "average": 0.007851358680727226,
+            "min": 0.0,
+            "max": 0.001
+        },
+        "cost_working": {
+            "average": 0.0008947368421052633,
+            "min": 0.0,
+            "max": 0.001
+        },
+        "cycles": {
+            "average": 0.8421052631578947,
+            "min": 0.0,
+            "max": 3726.0
+        },
+        "good_cycles": {
+            "average": 964.4736842105264,
+            "min": 0.0,
+            "max": 3726.0
+        },
+        "idle_time": {
+            "average": 13756.947368421053,
+            "min": 0.0,
+            "max": 45704.0
+        },
+        "offline_time": {
+            "average": 377.7894736842105,
+            "min": 0.0,
+            "max": 2698.0
+        },
+        "power": {
+            "average": 0.00012719783698875192,
+            "min": 0.0,
+            "max": 0.0012316644938050578
+        },
+        "working_time": {
+            "average": 39235.26315789474,
+            "min": 0.0,
+            "max": 116119.0
+        }
+    }
+}

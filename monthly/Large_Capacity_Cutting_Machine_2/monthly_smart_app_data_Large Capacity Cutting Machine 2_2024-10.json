@@ -1,0 +1,76 @@
+{
+    "machine_id": "Large Capacity Cutting Machine 2",
+    "month": "2024-10",
+    "KPIs": {
+        "average_cycle_time": {
+            "average": 0.6874037637298546,
+            "min": 0.0,
+            "max": 4.192638214974423
+        },
+        "bad_cycles": {
+            "average": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "consumption": {
+            "average": 0.0026798527867083004,
+            "min": 0.0,
+            "max": 0.20859880777747586
+        },
+        "consumption_idle": {
+            "average": 0.0012207273118886848,
+            "min": 0.0,
+            "max": 0.01173021367537137
+        },
+        "consumption_working": {
+            "average": 0.004069581901536322,
+            "min": 0.0,
+            "max": 0.024583066841984837
+        },
+        "cost": {
+            "average": 0.0013912967396377443,
+            "min": 0.0,
+            "max": 0.07793768144772857
+        },
+        "cost_idle": {
+            "average": 0.0007777214826497094,
+            "min": 0.0,
+            "max": 0.0031406611825852263
+        },
+        "cost_working": {
+            "average": 0.0036689746549792472,
+            "min": 0.0,
+            "max": 0.006363859824841734
+        },
+        "cycles": {
+            "average": 0.7368421052631579,
+            "min": 0.0,
+            "max": 8898.0
+        },
+        "good_cycles": {
+            "average": 1718.9473684210527,
+            "min": 0.0,
+            "max": 8898.0
+        },
+        "idle_time": {
+            "average": 11572.736842105263,
+            "min": 0.0,
+            "max": 39495.0
+        },
+        "offline_time": {
+            "average": 1045.2105263157894,
+            "min": 0.0,
+            "max": 4206.0
+        },
+        "power": {
+            "average": 0.0068125670689600125,
+            "min": 0.0,
+            "max": 0.0722072735094611
+        },
+        "working_time": {
+            "average": 15023.052631578947,
+            "min": 0.0,
+            "max": 45550.0
+        }
+    }
+}
