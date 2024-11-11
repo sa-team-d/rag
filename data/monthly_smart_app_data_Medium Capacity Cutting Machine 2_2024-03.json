@@ -1,6 +1,6 @@
 {
-    "machine_id": "Large Capacity Cutting Machine 1",
-    "month": "2024-04",
+    "machine_id": "Medium Capacity Cutting Machine 2",
+    "month": "2024-03",
     "KPIs": {
         "average_cycle_time": {
             "average": 0.0,
@@ -13,22 +13,22 @@
             "max": 0.0
         },
         "consumption": {
-            "average": 0.0021429393080972933,
+            "average": 0.0023731402496540857,
             "min": 0.0,
-            "max": 0.19788559705872216
+            "max": 0.3199285622525932
         },
         "consumption_idle": {
-            "average": 0.0003240698959068531,
+            "average": 0.0010540869556586408,
             "min": 0.0,
-            "max": 0.0016152124022308077
+            "max": 0.014760961954663865
         },
         "consumption_working": {
-            "average": 0.0034884213229493415,
+            "average": 0.003713141006560274,
             "min": 0.0,
-            "max": 0.022173400242414574
+            "max": 0.023394668436348853
         },
         "cost": {
-            "average": 0.0006818958993866005,
+            "average": 0.00150412750871346,
             "min": 0.0,
             "max": 0.0
         },
@@ -43,14 +43,14 @@
             "max": 0.0
         },
         "cycles": {
-            "average": 0.6333333333333333,
+            "average": 0.7096774193548387,
             "min": 0.0,
-            "max": 15829.0
+            "max": 24298.0
         },
         "good_cycles": {
-            "average": 1900.6,
+            "average": 1822.032258064516,
             "min": 0.0,
-            "max": 15829.0
+            "max": 24298.0
         },
         "idle_time": {
             "average": 0.0,
@@ -63,9 +63,9 @@
             "max": 0.0
         },
         "power": {
-            "average": 0.003297448010405093,
+            "average": 0.004952443803414934,
             "min": 0.0,
-            "max": 0.07060588114453872
+            "max": 0.06434539854559689
         },
         "working_time": {
             "average": 0.0,

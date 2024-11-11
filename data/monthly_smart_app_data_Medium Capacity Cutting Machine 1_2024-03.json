@@ -1,6 +1,6 @@
 {
-    "machine_id": "Assembly Machine 1",
-    "month": "2024-05",
+    "machine_id": "Medium Capacity Cutting Machine 1",
+    "month": "2024-03",
     "KPIs": {
         "average_cycle_time": {
             "average": 0.0,
@@ -13,22 +13,22 @@
             "max": 0.0
         },
         "consumption": {
-            "average": 7.057445404315727e-08,
+            "average": 0.0025908645679010044,
             "min": 0.0,
-            "max": 8.35528939029421e-06
+            "max": 0.21589801909484266
         },
         "consumption_idle": {
-            "average": 7.057445404315727e-08,
+            "average": 0.0012660284954159283,
             "min": 0.0,
-            "max": 3.256076368832182e-06
+            "max": 0.01432597014259446
         },
         "consumption_working": {
-            "average": 0.0,
+            "average": 0.005278610700021035,
             "min": 0.0,
-            "max": 0.0
+            "max": 0.024018969243286975
         },
         "cost": {
-            "average": 5.0612046930918873e-08,
+            "average": 0.002026220934115488,
             "min": 0.0,
             "max": 0.0
         },
@@ -43,14 +43,14 @@
             "max": 0.0
         },
         "cycles": {
-            "average": 0.0,
+            "average": 0.7741935483870968,
             "min": 0.0,
-            "max": 0.0
+            "max": 16240.0
         },
         "good_cycles": {
-            "average": 0.0,
+            "average": 1935.8064516129032,
             "min": 0.0,
-            "max": 0.0
+            "max": 16240.0
         },
         "idle_time": {
             "average": 0.0,
@@ -63,9 +63,9 @@
             "max": 0.0
         },
         "power": {
-            "average": 7.148556635671101e-06,
+            "average": 0.006006119308061655,
             "min": 0.0,
-            "max": 0.0002529572661431349
+            "max": 0.12348694818434269
         },
         "working_time": {
             "average": 0.0,

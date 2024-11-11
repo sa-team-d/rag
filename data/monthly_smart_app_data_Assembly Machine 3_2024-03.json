@@ -1,6 +1,6 @@
 {
-    "machine_id": "Assembly Machine 1",
-    "month": "2024-07",
+    "machine_id": "Assembly Machine 3",
+    "month": "2024-03",
     "KPIs": {
         "average_cycle_time": {
             "average": 0.0,
@@ -13,44 +13,44 @@
             "max": 0.0
         },
         "consumption": {
-            "average": 0.00019333560383856847,
+            "average": 0.0,
             "min": 0.0,
-            "max": 0.01455651198187419
+            "max": 0.0
         },
         "consumption_idle": {
-            "average": 5.2407960279575483e-05,
+            "average": 0.0,
             "min": 0.0,
-            "max": 0.0009697699927588587
+            "max": 0.0
         },
         "consumption_working": {
-            "average": 0.0003521378215909331,
+            "average": 0.0,
             "min": 0.0,
-            "max": 0.007206095531253021
+            "max": 0.0
         },
         "cost": {
-            "average": 0.0006876627188080904,
+            "average": 0.0,
             "min": 0.0,
-            "max": 0.007793037207717087
+            "max": 0.0
         },
         "cost_idle": {
-            "average": 0.0006550286829537418,
+            "average": 0.0,
             "min": 0.0,
-            "max": 0.001
+            "max": 0.0
         },
         "cost_working": {
-            "average": 0.0006788737438565095,
+            "average": 0.0,
             "min": 0.0,
-            "max": 0.001
+            "max": 0.0
         },
         "cycles": {
-            "average": 0.7096774193548387,
+            "average": 0.0,
             "min": 0.0,
-            "max": 5414.0
+            "max": 0.0
         },
         "good_cycles": {
-            "average": 975.6774193548387,
+            "average": 0.0,
             "min": 0.0,
-            "max": 5414.0
+            "max": 0.0
         },
         "idle_time": {
             "average": 0.0,
@@ -63,9 +63,9 @@
             "max": 0.0
         },
         "power": {
-            "average": 0.00027566406118421233,
+            "average": 0.0,
             "min": 0.0,
-            "max": 0.005142769591539479
+            "max": 0.0
         },
         "working_time": {
             "average": 0.0,
