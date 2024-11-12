@@ -1,0 +1,120 @@
+{
+    "kpi": {
+      "consumption": {
+        "average": [
+          { "machine": "Assembly Machine 1", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 2", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 3", "month": "2024-03", "value": 0.0 },
+          { "machine": "Large Capacity Cutting Machine 1", "month": "2024-03", "value": 0.0013015137854767644 },
+          { "machine": "Large Capacity Cutting Machine 2", "month": "2024-03", "value": 0.0009502908983908073 }
+        ],
+        "min": [
+          { "machine": "Assembly Machine 1", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 2", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 3", "month": "2024-03", "value": 0.0 },
+          { "machine": "Large Capacity Cutting Machine 1", "month": "2024-03", "value": 0.0 },
+          { "machine": "Large Capacity Cutting Machine 2", "month": "2024-03", "value": 0.0 }
+        ],
+        "max": [
+          { "machine": "Assembly Machine 1", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 2", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 3", "month": "2024-03", "value": 0.0 },
+          { "machine": "Large Capacity Cutting Machine 1", "month": "2024-03", "value": 0.09477750094431775 },
+          { "machine": "Large Capacity Cutting Machine 2", "month": "2024-03", "value": 0.15497427194254568 }
+        ]
+      },
+      "consumption_idle": {
+        "average": [
+          { "machine": "Assembly Machine 1", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 2", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 3", "month": "2024-03", "value": 0.0 },
+          { "machine": "Large Capacity Cutting Machine 1", "month": "2024-03", "value": 0.0004203452003983412 },
+          { "machine": "Large Capacity Cutting Machine 2", "month": "2024-03", "value": 0.0006513621264504764 }
+        ],
+        "min": [
+          { "machine": "Assembly Machine 1", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 2", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 3", "month": "2024-03", "value": 0.0 },
+          { "machine": "Large Capacity Cutting Machine 1", "month": "2024-03", "value": 0.0 },
+          { "machine": "Large Capacity Cutting Machine 2", "month": "2024-03", "value": 0.0 }
+        ],
+        "max": [
+          { "machine": "Assembly Machine 1", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 2", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 3", "month": "2024-03", "value": 0.0 },
+          { "machine": "Large Capacity Cutting Machine 1", "month": "2024-03", "value": 0.0024920118485895794 },
+          { "machine": "Large Capacity Cutting Machine 2", "month": "2024-03", "value": 0.03249318468435469 }
+        ]
+      },
+      "consumption_working": {
+        "average": [
+          { "machine": "Assembly Machine 1", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 2", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 3", "month": "2024-03", "value": 0.0 },
+          { "machine": "Large Capacity Cutting Machine 1", "month": "2024-03", "value": 0.0021111835419563543 },
+          { "machine": "Large Capacity Cutting Machine 2", "month": "2024-03", "value": 0.00152712326133702 }
+        ],
+        "min": [
+          { "machine": "Assembly Machine 1", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 2", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 3", "month": "2024-03", "value": 0.0 },
+          { "machine": "Large Capacity Cutting Machine 1", "month": "2024-03", "value": 0.0 },
+          { "machine": "Large Capacity Cutting Machine 2", "month": "2024-03", "value": 0.0 }
+        ],
+        "max": [
+          { "machine": "Assembly Machine 1", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 2", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 3", "month": "2024-03", "value": 0.0 },
+          { "machine": "Large Capacity Cutting Machine 1", "month": "2024-03", "value": 0.017477024244629727 },
+          { "machine": "Large Capacity Cutting Machine 2", "month": "2024-03", "value": 0.03329324345041983 }
+        ]
+      },
+      "cost": {
+        "average": [
+          { "machine": "Assembly Machine 1", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 2", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 3", "month": "2024-03", "value": 0.0 },
+          { "machine": "Large Capacity Cutting Machine 1", "month": "2024-03", "value": 0.0007648453461734984 },
+          { "machine": "Large Capacity Cutting Machine 2", "month": "2024-03", "value": 0.000789856282015753 }
+        ],
+        "min": [
+          { "machine": "Assembly Machine 1", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 2", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 3", "month": "2024-03", "value": 0.0 },
+          { "machine": "Large Capacity Cutting Machine 1", "month": "2024-03", "value": 0.0 },
+          { "machine": "Large Capacity Cutting Machine 2", "month": "2024-03", "value": 0.0 }
+        ],
+        "max": [
+          { "machine": "Assembly Machine 1", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 2", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 3", "month": "2024-03", "value": 0.0 },
+          { "machine": "Large Capacity Cutting Machine 1", "month": "2024-03", "value": 0.0 },
+          { "machine": "Large Capacity Cutting Machine 2", "month": "2024-03", "value": 0.0 }
+        ]
+      },
+      "power": {
+        "average": [
+          { "machine": "Assembly Machine 1", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 2", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 3", "month": "2024-03", "value": 0.0 },
+          { "machine": "Large Capacity Cutting Machine 1", "month": "2024-03", "value": 0.0028015846972911963 },
+          { "machine": "Large Capacity Cutting Machine 2", "month": "2024-03", "value": 0.0025818193261147593 }
+        ],
+        "min": [
+          { "machine": "Assembly Machine 1", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 2", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 3", "month": "2024-03", "value": 0.0 },
+          { "machine": "Large Capacity Cutting Machine 1", "month": "2024-03", "value": 0.0 },
+          { "machine": "Large Capacity Cutting Machine 2", "month": "2024-03", "value": 0.0 }
+        ],
+        "max": [
+          { "machine": "Assembly Machine 1", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 2", "month": "2024-03", "value": 0.0 },
+          { "machine": "Assembly Machine 3", "month": "2024-03", "value": 0.0 },
+          { "machine": "Large Capacity Cutting Machine 1", "month": "2024-03", "value": 0.08007309150809613 },
+          { "machine": "Large Capacity Cutting Machine 2", "month": "2024-03", "value": 0.07239881195819103 }
+        ]
+      }
+    }
+  }
+  
