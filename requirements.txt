@@ -6,6 +6,7 @@ anyio==4.6.2.post1
 appnope @ file:///home/conda/feedstock_root/build_artifacts/appnope_1707233003401/work
 asttokens @ file:///home/conda/feedstock_root/build_artifacts/asttokens_1698341106958/work
 async-timeout==4.0.3
+asyncpg==0.29.0
 attrs==24.2.0
 beautifulsoup4==4.12.3
 certifi==2024.8.30
@@ -57,6 +58,7 @@ llama-index-question-gen-openai==0.2.0
 llama-index-readers-file==0.2.2
 llama-index-readers-json==0.2.0
 llama-index-readers-llama-parse==0.3.0
+llama-index-vector-stores-postgres==0.2.6
 llama-parse==0.5.13
 MarkupSafe==3.0.2
 marshmallow==3.23.1
@@ -74,6 +76,7 @@ packaging==24.1
 pandas==2.2.3
 parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1712320355065/work
 pexpect @ file:///home/conda/feedstock_root/build_artifacts/pexpect_1706113125309/work
+pgvector==0.2.5
 pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
 pillow==11.0.0
 platformdirs @ file:///home/conda/feedstock_root/build_artifacts/platformdirs_1726613481435/work
@@ -81,11 +84,13 @@ ply==3.11
 prompt_toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1727341649933/work
 propcache==0.2.0
 psutil @ file:///Users/runner/miniforge3/conda-bld/psutil_1729847081697/work
+psycopg2-binary==2.9.10
 ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1609419310487/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
 pure_eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_1721585709575/work
 pydantic==2.9.2
 pydantic_core==2.23.4
 Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1714846767233/work
+PyMuPDF==1.24.13
 pypdf==4.3.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
