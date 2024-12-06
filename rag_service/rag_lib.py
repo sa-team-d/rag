@@ -2,15 +2,12 @@ import json
 from pathlib import Path
 from tempfile import NamedTemporaryFile
 
-from llama_index.core.node_parser import TokenTextSplitter
-from llama_index.core.ingestion import IngestionPipeline
-from llama_index.core.query_engine import RetrieverQueryEngine
+from llama_index.core import VectorStoreIndex
 from llama_index.llms.ollama import Ollama
 from llama_index.readers.file import FlatReader
 
 from rag_service.constants import CHAT_PROMPT
-from rag_service.config import vector_store, embed_model
-from rag_service.utility import VectorDBRetriever
+from rag_service.config import embed_model
 
 
 def rag_chat(response_data_list, query):
@@ -35,39 +32,11 @@ def rag_chat(response_data_list, query):
             # Load data using the temporary file's path
             documents.extend(FlatReader().load_data(temp_path))
 
-    text_splitter = TokenTextSplitter(
-        # separator=" ", 
-        chunk_size=512, 
-        chunk_overlap=128
-    )
 
-    transformations = [
-    text_splitter,
-    ]
+    vector_index = VectorStoreIndex.from_documents(documents, embed_model=embed_model, show_progress=True)
 
-    pipeline = IngestionPipeline(
-        transformations=transformations
-    )
+    query_engine = vector_index.as_query_engine(llm=llm, verbose=True, similarity_top_k=2)
 
-    nodes = pipeline.run(
-        documents=documents,
-        in_place=True,
-        show_progress=True,
-    )
-
-    for node in nodes:
-        node_embedding = embed_model.get_text_embedding(
-            node.get_content(metadata_mode="all")
-        )
-        node.embedding = node_embedding
-
-    vector_store.add(nodes)
-
-    retriever = VectorDBRetriever(
-        query_mode="default", similarity_top_k=2
-    )
-
-    query_engine = RetrieverQueryEngine.from_args(retriever, llm=llm)
     response = query_engine.query(CHAT_PROMPT + "\n" + query)
     
     return response
