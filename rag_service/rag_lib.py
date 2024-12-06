@@ -6,11 +6,11 @@ from llama_index.core import VectorStoreIndex
 from llama_index.llms.ollama import Ollama
 from llama_index.readers.file import FlatReader
 
-from rag_service.constants import CHAT_PROMPT
+from rag_service.constants import CHAT_PROMPT, REPORT_PROMPT
 from rag_service.config import embed_model
 
 
-def rag_chat(response_data_list, query):
+def rag_interaction(data, query=None):
     """
     @param vector_store vector store to be used for the RAG system
     @param documents list of documents to be ingested (each in json format)
@@ -22,7 +22,7 @@ def rag_chat(response_data_list, query):
     llm = Ollama(model="llama3.2", request_timeout=180.0) 
 
     documents = []
-    for response_data in response_data_list:
+    for response_data in data:
         # Create a temporary file for each JSON data
         with NamedTemporaryFile(mode='w+', suffix=".json", delete=True) as temp_file:
             json.dump(response_data, temp_file)  # Write JSON data to the temp file
@@ -37,6 +37,9 @@ def rag_chat(response_data_list, query):
 
     query_engine = vector_index.as_query_engine(llm=llm, verbose=True, similarity_top_k=2)
 
-    response = query_engine.query(CHAT_PROMPT + "\n" + query)
+    if query is None:
+        response = query_engine.query(REPORT_PROMPT)
+    else:
+        response = query_engine.query(CHAT_PROMPT + "\n" + query)
     
     return response
