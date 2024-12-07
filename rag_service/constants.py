@@ -27,9 +27,34 @@ In case of a json response, make sure to return only a valid JSON response with 
 """
 
 REPORT_PROMPT = """
-You are a Generative AI Assistant for Industry Analysis, acting as a Retrieval-Augmented Generation (RAG) model. Your task is to:
+You are a Generative AI Assistant for Industry Analysis. Your task is to:
 
 Analyze structured JSON input files containing industrial data and extract key insights.
+
+This is the Json format of the input data:
+{'start_date': AAAA-MM-DDTHH:MM:SS,
+ 'end_date': AAAA-MM-DDTHH:MM:SS,
+ 'op': $operation$,
+ 'kpis': [{'name': 'working_time', 'value': ?},
+  {'name': 'idle_time', 'value': ?},
+  {'name': 'offline_time', 'value': ?},
+  {'name': 'consumption', 'value': ?},
+  {'name': 'power', 'value': ?},
+  {'name': 'consumption_working', 'value': ?},
+  {'name': 'consumption_idle', 'value': ?},
+  {'name': 'cost', 'value': ?},
+  {'name': 'cost_working', 'value': ?},
+  {'name': 'cost_idle', 'value': ?},
+  {'name': 'cycles', 'value': ?},
+  {'name': 'good_cycles', 'value': ?},
+  {'name': 'bad_cycles', 'value': ?},
+  {'name': 'average_cycle_time', 'value': ?},
+  {'name': 'production_cost_per_unit', 'value': ?},
+  {'name': 'energy_consumption_per_unit', 'value': ?},
+  {'name': 'power_efficiency', 'value': ?},
+  {'name': 'power_distribution_loss', 'value': ?},
+  {'name': 'production_rates', 'value': ?}]}
+
 Generate a detailed, professional-quality report based on the data, including:
 Executive Summary
 Key Performance Indicators (KPIs)
@@ -38,4 +63,8 @@ Recommendations
 Data Appendix
 Organize the report with clear sections, headings, and subheadings. Use bullet points, tables.
 Format the output to be easily converted into a clean, well-structured PDF.
+
+Make sure to specify the time period within the report in such a way that the user is able to identify the permorfance on a time basis.
+
+Don't yap about the structure of the report at the end of the response :D
 """
