@@ -35,7 +35,7 @@ def rag_interaction(data, query=None):
 
     vector_index = VectorStoreIndex.from_documents(documents, embed_model=embed_model, show_progress=True)
 
-    query_engine = vector_index.as_query_engine(llm=llm, verbose=True, similarity_top_k=2)
+    query_engine = vector_index.as_query_engine(llm=llm, verbose=True, similarity_top_k=7)
 
     if query is None:
         response = query_engine.query(REPORT_PROMPT)
