@@ -23,13 +23,12 @@ def rag_interaction(data, query=None):
 
     documents = []
     for response_data in data:
-        # Create a temporary file for each JSON data
-        with NamedTemporaryFile(mode='w+', suffix=".json", delete=True) as temp_file:
-            json.dump(response_data, temp_file)  # Write JSON data to the temp file
-            temp_file.flush()  # Ensure data is written to disk
-            temp_path = Path(temp_file.name)  # Get the path of the temp file
 
-            # Load data using the temporary file's path
+        with NamedTemporaryFile(mode='w+', suffix=".json", delete=True) as temp_file:
+            json.dump(response_data, temp_file)
+            temp_file.flush()
+            temp_path = Path(temp_file.name)
+
             documents.extend(FlatReader().load_data(temp_path))
 
 
